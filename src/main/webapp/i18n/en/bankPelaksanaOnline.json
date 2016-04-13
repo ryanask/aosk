@@ -1,0 +1,25 @@
+{
+    "aplikasiApp": {
+        "bankPelaksanaOnline" : {
+            "home": {
+                "title": "BankPelaksanaOnlines",
+                "createLabel": "Create a new BankPelaksanaOnline",
+                "createOrEditLabel": "Create or edit a BankPelaksanaOnline",
+                "search": "Search for BankPelaksanaOnline"
+            },
+            "created": "A new BankPelaksanaOnline is created with identifier {{ param }}",
+            "updated": "A BankPelaksanaOnline is updated with identifier {{ param }}",
+            "deleted": "A BankPelaksanaOnline is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete BankPelaksanaOnline {{ id }}?"
+            },
+            "detail": {
+                "title": "BankPelaksanaOnline"
+            },
+            "kode_bank": "Kode_bank",
+            "nama_bank": "Nama_bank",
+            "id_aktifitas_1": "Id_aktifitas_1",
+            "id_aktifitas_2": "Id_aktifitas_2"
+        }
+    }
+}

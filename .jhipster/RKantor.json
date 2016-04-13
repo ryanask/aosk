@@ -1,0 +1,34 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "id_kantor",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "2"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "kantor",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "alamat",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "telepon",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160413070520",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

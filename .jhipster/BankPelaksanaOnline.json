@@ -1,0 +1,44 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "kode_bank",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "2"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "nama_bank",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "id_aktifitas_1",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "2"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "id_aktifitas_2",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "2"
+        }
+    ],
+    "changelogDate": "20160413041301",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

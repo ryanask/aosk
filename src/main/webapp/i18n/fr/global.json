@@ -18,6 +18,8 @@
                 "rPendidikan": "RPendidikan",
                 "rStatusAkad": "RStatusAkad",
                 "rStatusRekening": "RStatusRekening",
+                "bankPelaksanaOnline": "BankPelaksanaOnline",
+                "rKantor": "RKantor",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

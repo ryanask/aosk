@@ -1,0 +1,80 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()" show-validation>
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myBankPelaksanaOnlineLabel" translate="aplikasiApp.bankPelaksanaOnline.home.createOrEditLabel">Create or edit a BankPelaksanaOnline</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="bankPelaksanaOnline.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.bankPelaksanaOnline.kode_bank" for="field_kode_bank">Kode_bank</label>
+            <input type="text" class="form-control" name="kode_bank" id="field_kode_bank"
+                    ng-model="bankPelaksanaOnline.kode_bank"
+                    required ng-maxlength="2" />
+            <div ng-show="editForm.kode_bank.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.kode_bank.$error.required" translate="entity.validation.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.kode_bank.$error.maxlength" translate="entity.validation.maxlength" translate-value-max="2">
+                    This field cannot be longer than 2 characters.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.bankPelaksanaOnline.nama_bank" for="field_nama_bank">Nama_bank</label>
+            <input type="text" class="form-control" name="nama_bank" id="field_nama_bank"
+                    ng-model="bankPelaksanaOnline.nama_bank"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.bankPelaksanaOnline.id_aktifitas_1" for="field_id_aktifitas_1">Id_aktifitas_1</label>
+            <input type="text" class="form-control" name="id_aktifitas_1" id="field_id_aktifitas_1"
+                    ng-model="bankPelaksanaOnline.id_aktifitas_1"
+                    required ng-maxlength="2" />
+            <div ng-show="editForm.id_aktifitas_1.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.id_aktifitas_1.$error.required" translate="entity.validation.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.id_aktifitas_1.$error.maxlength" translate="entity.validation.maxlength" translate-value-max="2">
+                    This field cannot be longer than 2 characters.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.bankPelaksanaOnline.id_aktifitas_2" for="field_id_aktifitas_2">Id_aktifitas_2</label>
+            <input type="text" class="form-control" name="id_aktifitas_2" id="field_id_aktifitas_2"
+                    ng-model="bankPelaksanaOnline.id_aktifitas_2"
+                    required ng-maxlength="2" />
+            <div ng-show="editForm.id_aktifitas_2.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.id_aktifitas_2.$error.required" translate="entity.validation.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.id_aktifitas_2.$error.maxlength" translate="entity.validation.maxlength" translate-value-max="2">
+                    This field cannot be longer than 2 characters.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

@@ -1,0 +1,26 @@
+{
+    "aplikasiApp": {
+        "rKantor" : {
+            "home": {
+                "title": "RKantors",
+                "createLabel": "Créer un nouveau RKantor",
+                "createOrEditLabel": "Créer ou éditer un RKantor",
+                "search": "Search for RKantor"
+            },
+            "created": "Un nouveau RKantor a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RKantor avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RKantor avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RKantor {{ id }} ?"
+            },
+            "detail": {
+                "title": "RKantor"
+            },
+            "id_kantor": "Id_kantor",
+            "kantor": "Kantor",
+            "alamat": "Alamat",
+            "telepon": "Telepon"
+        }
+    }
+}
+

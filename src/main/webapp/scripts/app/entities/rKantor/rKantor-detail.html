@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="aplikasiApp.rKantor.detail.title">RKantor</span> {{rKantor.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.rKantor.id_kantor">Id_kantor</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{rKantor.id_kantor}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.rKantor.kantor">Kantor</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{rKantor.kantor}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.rKantor.alamat">Alamat</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{rKantor.alamat}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.rKantor.telepon">Telepon</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{rKantor.telepon}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

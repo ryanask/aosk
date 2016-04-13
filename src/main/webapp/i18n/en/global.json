@@ -1,23 +1,29 @@
 {
     "global": {
-        "title": "aplikasi",
+        "title": "Askrindo Online System",
         "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
         "menu": {
             "home": "Home",
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
-                "main": "Entities",
-                "rJenisAgunan": "RJenisAgunan",
-                "rPengikatanAgunan": "RPengikatanAgunan",
-                "rSektorKur": "RSektorKur",
-                "rJenisKelamin": "RJenisKelamin",
-                "rKolektibilitas": "RKolektibilitas",
-                "rMaritalStatus": "RMaritalStatus",
-                "rNegaraTujuan": "RNegaraTujuan",
-                "rPekerjaan": "RPekerjaan",
-                "rPendidikan": "RPendidikan",
-                "rStatusAkad": "RStatusAkad",
-                "rStatusRekening": "RStatusRekening",
+                "main": "Referensi",
+                "rJenisAgunan": "Jenis Agunan",
+                "rPengikatanAgunan": "Pengikatan Agunan",
+                "rSektorKur": "Sektor Usaha",
+                "rJenisKelamin": "Jenis Kelamin",
+                "rKolektibilitas": "Status Kolektibilitas",
+                "rMaritalStatus": "Marital Status",
+                "rNegaraTujuan": "Negara Tujuan",
+                "rPekerjaan": "Pekerjaan",
+                "rPendidikan": "Pendidikan",
+                "rStatusAkad": "Status Akad",
+                "rStatusRekening": "Status Rekening",
+                "bankPelaksanaOnline": "Bank Pelaksana Online",
+                "rKantor": "Kantor Askrindo",
+                "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+            },
+            "penjaminan": {
+                "main": "Penjaminan",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
