@@ -1,0 +1,48 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()" show-validation>
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myRStatusRekeningLabel" translate="aplikasiApp.rStatusRekening.home.createOrEditLabel">Create or edit a RStatusRekening</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="rStatusRekening.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.rStatusRekening.id_r_status_rekening" for="field_id_r_status_rekening">Id_r_status_rekening</label>
+            <input type="text" class="form-control" name="id_r_status_rekening" id="field_id_r_status_rekening"
+                    ng-model="rStatusRekening.id_r_status_rekening"
+                    required ng-maxlength="1" />
+            <div ng-show="editForm.id_r_status_rekening.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.id_r_status_rekening.$error.required" translate="entity.validation.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.id_r_status_rekening.$error.maxlength" translate="entity.validation.maxlength" translate-value-max="1">
+                    This field cannot be longer than 1 characters.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.rStatusRekening.keterangan" for="field_keterangan">Keterangan</label>
+            <input type="text" class="form-control" name="keterangan" id="field_keterangan"
+                    ng-model="rStatusRekening.keterangan"
+                     />
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

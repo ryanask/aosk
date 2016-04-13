@@ -1,0 +1,60 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()" show-validation>
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myRSektorKurLabel" translate="aplikasiApp.rSektorKur.home.createOrEditLabel">Create or edit a RSektorKur</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="rSektorKur.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.rSektorKur.id_sektor" for="field_id_sektor">Id_sektor</label>
+            <input type="text" class="form-control" name="id_sektor" id="field_id_sektor"
+                    ng-model="rSektorKur.id_sektor"
+                    required ng-maxlength="10" />
+            <div ng-show="editForm.id_sektor.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.id_sektor.$error.required" translate="entity.validation.required">
+                    This field is required.
+                </p>
+                <p class="help-block"
+                    ng-show="editForm.id_sektor.$error.maxlength" translate="entity.validation.maxlength" translate-value-max="10">
+                    This field cannot be longer than 10 characters.
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.rSektorKur.uraian" for="field_uraian">Uraian</label>
+            <input type="text" class="form-control" name="uraian" id="field_uraian"
+                    ng-model="rSektorKur.uraian"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="aplikasiApp.rSektorKur.tanaman_keras" for="field_tanaman_keras">Tanaman_keras</label>
+            <input type="text" class="form-control" name="tanaman_keras" id="field_tanaman_keras"
+                    ng-model="rSektorKur.tanaman_keras"
+                    ng-maxlength="1" />
+            <div ng-show="editForm.tanaman_keras.$invalid">
+                <p class="help-block"
+                    ng-show="editForm.tanaman_keras.$error.maxlength" translate="entity.validation.maxlength" translate-value-max="1">
+                    This field cannot be longer than 1 characters.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

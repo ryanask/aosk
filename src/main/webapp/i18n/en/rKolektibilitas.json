@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "rKolektibilitas" : {
+            "home": {
+                "title": "RKolektibilitass",
+                "createLabel": "Create a new RKolektibilitas",
+                "createOrEditLabel": "Create or edit a RKolektibilitas",
+                "search": "Search for RKolektibilitas"
+            },
+            "created": "A new RKolektibilitas is created with identifier {{ param }}",
+            "updated": "A RKolektibilitas is updated with identifier {{ param }}",
+            "deleted": "A RKolektibilitas is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete RKolektibilitas {{ id }}?"
+            },
+            "detail": {
+                "title": "RKolektibilitas"
+            },
+            "id_r_kolektibilitas": "Id_r_kolektibilitas",
+            "keterangan": "Keterangan"
+        }
+    }
+}

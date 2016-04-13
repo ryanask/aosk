@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "rMaritalStatus" : {
+            "home": {
+                "title": "RMaritalStatuss",
+                "createLabel": "Créer un nouveau RMaritalStatus",
+                "createOrEditLabel": "Créer ou éditer un RMaritalStatus",
+                "search": "Search for RMaritalStatus"
+            },
+            "created": "Un nouveau RMaritalStatus a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RMaritalStatus avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RMaritalStatus avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RMaritalStatus {{ id }} ?"
+            },
+            "detail": {
+                "title": "RMaritalStatus"
+            },
+            "id_r_marital_status": "Id_r_marital_status",
+            "keterangan": "Keterangan"
+        }
+    }
+}
+

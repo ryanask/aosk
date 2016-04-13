@@ -1,0 +1,22 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "id_r_pengikatan_agunan",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "uraian",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160413022745",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

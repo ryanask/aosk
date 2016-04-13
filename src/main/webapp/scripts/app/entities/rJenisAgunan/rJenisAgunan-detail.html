@@ -1,0 +1,38 @@
+
+<div>
+    <h2><span translate="aplikasiApp.rJenisAgunan.detail.title">RJenisAgunan</span> {{rJenisAgunan.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.rJenisAgunan.id_r_jenis_agunan">Id_r_jenis_agunan</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{rJenisAgunan.id_r_jenis_agunan}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="aplikasiApp.rJenisAgunan.uraian">Uraian</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{rJenisAgunan.uraian}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

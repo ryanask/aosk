@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "rStatusAkad" : {
+            "home": {
+                "title": "RStatusAkads",
+                "createLabel": "Create a new RStatusAkad",
+                "createOrEditLabel": "Create or edit a RStatusAkad",
+                "search": "Search for RStatusAkad"
+            },
+            "created": "A new RStatusAkad is created with identifier {{ param }}",
+            "updated": "A RStatusAkad is updated with identifier {{ param }}",
+            "deleted": "A RStatusAkad is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete RStatusAkad {{ id }}?"
+            },
+            "detail": {
+                "title": "RStatusAkad"
+            },
+            "id_r_status_akad": "Id_r_status_akad",
+            "keterangan": "Keterangan"
+        }
+    }
+}

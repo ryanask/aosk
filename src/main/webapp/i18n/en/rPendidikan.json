@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "rPendidikan" : {
+            "home": {
+                "title": "RPendidikans",
+                "createLabel": "Create a new RPendidikan",
+                "createOrEditLabel": "Create or edit a RPendidikan",
+                "search": "Search for RPendidikan"
+            },
+            "created": "A new RPendidikan is created with identifier {{ param }}",
+            "updated": "A RPendidikan is updated with identifier {{ param }}",
+            "deleted": "A RPendidikan is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete RPendidikan {{ id }}?"
+            },
+            "detail": {
+                "title": "RPendidikan"
+            },
+            "id_r_pendidikan": "Id_r_pendidikan",
+            "keterangan": "Keterangan"
+        }
+    }
+}

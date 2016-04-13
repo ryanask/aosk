@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "rJenisAgunan" : {
+            "home": {
+                "title": "RJenisAgunans",
+                "createLabel": "Créer un nouveau RJenisAgunan",
+                "createOrEditLabel": "Créer ou éditer un RJenisAgunan",
+                "search": "Search for RJenisAgunan"
+            },
+            "created": "Un nouveau RJenisAgunan a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RJenisAgunan avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RJenisAgunan avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RJenisAgunan {{ id }} ?"
+            },
+            "detail": {
+                "title": "RJenisAgunan"
+            },
+            "id_r_jenis_agunan": "Id_r_jenis_agunan",
+            "uraian": "Uraian"
+        }
+    }
+}
+

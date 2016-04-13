@@ -1,0 +1,24 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "id_r_status_rekening",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "1"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "keterangan",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160413031436",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}

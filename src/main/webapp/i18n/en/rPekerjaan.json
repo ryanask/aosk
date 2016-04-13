@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "rPekerjaan" : {
+            "home": {
+                "title": "RPekerjaans",
+                "createLabel": "Create a new RPekerjaan",
+                "createOrEditLabel": "Create or edit a RPekerjaan",
+                "search": "Search for RPekerjaan"
+            },
+            "created": "A new RPekerjaan is created with identifier {{ param }}",
+            "updated": "A RPekerjaan is updated with identifier {{ param }}",
+            "deleted": "A RPekerjaan is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete RPekerjaan {{ id }}?"
+            },
+            "detail": {
+                "title": "RPekerjaan"
+            },
+            "id_r_pekerjaan": "Id_r_pekerjaan",
+            "keterangan": "Keterangan"
+        }
+    }
+}

@@ -5,5 +5,16 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
     <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413022330_added_entity_RJenisAgunan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413022745_added_entity_RPengikatanAgunan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413023049_added_entity_RSektorKur.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413023325_added_entity_RJenisKelamin.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413023531_added_entity_RKolektibilitas.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413025045_added_entity_RMaritalStatus.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413030515_added_entity_RNegaraTujuan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413030748_added_entity_RPekerjaan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413031147_added_entity_RPendidikan.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413031339_added_entity_RStatusAkad.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160413031436_added_entity_RStatusRekening.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
 </databaseChangeLog>

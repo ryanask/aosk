@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "rNegaraTujuan" : {
+            "home": {
+                "title": "RNegaraTujuans",
+                "createLabel": "Créer un nouveau RNegaraTujuan",
+                "createOrEditLabel": "Créer ou éditer un RNegaraTujuan",
+                "search": "Search for RNegaraTujuan"
+            },
+            "created": "Un nouveau RNegaraTujuan a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RNegaraTujuan avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RNegaraTujuan avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RNegaraTujuan {{ id }} ?"
+            },
+            "detail": {
+                "title": "RNegaraTujuan"
+            },
+            "id_r_negara_tujuan": "Id_r_negara_tujuan",
+            "keterangan": "Keterangan"
+        }
+    }
+}
+

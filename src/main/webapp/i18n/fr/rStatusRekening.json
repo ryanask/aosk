@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "rStatusRekening" : {
+            "home": {
+                "title": "RStatusRekenings",
+                "createLabel": "Créer un nouveau RStatusRekening",
+                "createOrEditLabel": "Créer ou éditer un RStatusRekening",
+                "search": "Search for RStatusRekening"
+            },
+            "created": "Un nouveau RStatusRekening a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RStatusRekening avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RStatusRekening avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RStatusRekening {{ id }} ?"
+            },
+            "detail": {
+                "title": "RStatusRekening"
+            },
+            "id_r_status_rekening": "Id_r_status_rekening",
+            "keterangan": "Keterangan"
+        }
+    }
+}
+

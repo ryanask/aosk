@@ -1,0 +1,23 @@
+{
+    "aplikasiApp": {
+        "rJenisKelamin" : {
+            "home": {
+                "title": "RJenisKelamins",
+                "createLabel": "Create a new RJenisKelamin",
+                "createOrEditLabel": "Create or edit a RJenisKelamin",
+                "search": "Search for RJenisKelamin"
+            },
+            "created": "A new RJenisKelamin is created with identifier {{ param }}",
+            "updated": "A RJenisKelamin is updated with identifier {{ param }}",
+            "deleted": "A RJenisKelamin is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete RJenisKelamin {{ id }}?"
+            },
+            "detail": {
+                "title": "RJenisKelamin"
+            },
+            "id_r_jenis_kelamin": "Id_r_jenis_kelamin",
+            "keterangan": "Keterangan"
+        }
+    }
+}

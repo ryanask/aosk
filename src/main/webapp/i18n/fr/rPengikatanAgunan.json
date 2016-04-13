@@ -1,0 +1,24 @@
+{
+    "aplikasiApp": {
+        "rPengikatanAgunan" : {
+            "home": {
+                "title": "RPengikatanAgunans",
+                "createLabel": "Créer un nouveau RPengikatanAgunan",
+                "createOrEditLabel": "Créer ou éditer un RPengikatanAgunan",
+                "search": "Search for RPengikatanAgunan"
+            },
+            "created": "Un nouveau RPengikatanAgunan a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RPengikatanAgunan avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RPengikatanAgunan avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RPengikatanAgunan {{ id }} ?"
+            },
+            "detail": {
+                "title": "RPengikatanAgunan"
+            },
+            "id_r_pengikatan_agunan": "Id_r_pengikatan_agunan",
+            "uraian": "Uraian"
+        }
+    }
+}
+

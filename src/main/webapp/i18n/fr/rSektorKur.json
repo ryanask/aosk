@@ -1,0 +1,25 @@
+{
+    "aplikasiApp": {
+        "rSektorKur" : {
+            "home": {
+                "title": "RSektorKurs",
+                "createLabel": "Créer un nouveau RSektorKur",
+                "createOrEditLabel": "Créer ou éditer un RSektorKur",
+                "search": "Search for RSektorKur"
+            },
+            "created": "Un nouveau RSektorKur a été créé avec l'identifiant {{ param }}",
+            "updated": "Le RSektorKur avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le RSektorKur avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le RSektorKur {{ id }} ?"
+            },
+            "detail": {
+                "title": "RSektorKur"
+            },
+            "id_sektor": "Id_sektor",
+            "uraian": "Uraian",
+            "tanaman_keras": "Tanaman_keras"
+        }
+    }
+}
+

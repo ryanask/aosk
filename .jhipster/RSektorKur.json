@@ -1,0 +1,33 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "id_sektor",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "10"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "uraian",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "tanaman_keras",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "1"
+        }
+    ],
+    "changelogDate": "20160413023049",
+    "dto": "no",
+    "service": "no",
+    "pagination": "pagination"
+}
